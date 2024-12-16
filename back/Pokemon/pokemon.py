@@ -8,7 +8,7 @@ from fastapi.responses import JSONResponse
 
 ### FAST API SETUP
 
-app = FastAPI()
+#app = FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
